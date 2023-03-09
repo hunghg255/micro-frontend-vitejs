@@ -1,0 +1,56 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@originjs/vite-plugin-federation': ^1.2.1
+  kill-port: ^2.0.1
+
+devDependencies:
+  '@originjs/vite-plugin-federation': 1.2.1
+  kill-port: 2.0.1
+
+packages:
+
+  /@jridgewell/sourcemap-codec/1.4.14:
+    resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
+    dev: true
+
+  /@originjs/vite-plugin-federation/1.2.1:
+    resolution: {integrity: sha512-bKlosfNGtQM9LjS+Wju1joVly6C1ftL18zfpzzTgiZnO+mgn55lGCjz/ogLFbBn0OhE/h0fDUm+FRKeCNCXK+A==}
+    engines: {node: '>=14.0.0', pnpm: '>=7.0.1'}
+    dependencies:
+      estree-walker: 3.0.3
+      magic-string: 0.27.0
+    dev: true
+
+  /@types/estree/1.0.0:
+    resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
+    dev: true
+
+  /estree-walker/3.0.3:
+    resolution: {integrity: sha512-7RUKfXgSMMkzt6ZuXmqapOurLGPPfgj6l9uRZ7lRGolvk0y2yocc35LdcxKC5PQZdn2DMqioAQ2NoWcrTKmm6g==}
+    dependencies:
+      '@types/estree': 1.0.0
+    dev: true
+
+  /get-them-args/1.3.2:
+    resolution: {integrity: sha512-LRn8Jlk+DwZE4GTlDbT3Hikd1wSHgLMme/+7ddlqKd7ldwR6LjJgTVWzBnR01wnYGe4KgrXjg287RaI22UHmAw==}
+    dev: true
+
+  /kill-port/2.0.1:
+    resolution: {integrity: sha512-e0SVOV5jFo0mx8r7bS29maVWp17qGqLBZ5ricNSajON6//kmb7qqqNnml4twNE8Dtj97UQD+gNFOaipS/q1zzQ==}
+    hasBin: true
+    dependencies:
+      get-them-args: 1.3.2
+      shell-exec: 1.0.2
+    dev: true
+
+  /magic-string/0.27.0:
+    resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
+
+  /shell-exec/1.0.2:
+    resolution: {integrity: sha512-jyVd+kU2X+mWKMmGhx4fpWbPsjvD53k9ivqetutVW/BQ+WIZoDoP4d8vUMGezV6saZsiNoW2f9GIhg9Dondohg==}
+    dev: true

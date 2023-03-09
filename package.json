@@ -1,0 +1,24 @@
+{
+  "name": "micro-frontend-vitejs",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "host",
+    "remote"
+  ],
+  "scripts": {
+    "build": "pnpm  --parallel --filter \"./**\" build",
+    "serve": "pnpm  --parallel --filter \"./**\" preview",
+    "build:remotes": "npm --parallel --filter \"./remote\" build",
+    "serve:remotes": "npm --parallel --filter \"./remote\" serve",
+    "dev:hosts": "pnpm --filter \"./**\" dev",
+    "stop": "kill-port --port 5000,5001"
+  },
+  "keywords": [],
+  "author": "hunghg255",
+  "license": "ISC",
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.2.1",
+    "kill-port": "^2.0.1"
+  }
+}
